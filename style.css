@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #ffffff;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.firstlist {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+li a {
+    text-decoration: none;
+    color: #4d4141;
+}
+
+.common-button {
+    background-color:#2563eb;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    color: white;
+}
