@@ -1,20 +1,23 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Inter"
 }
 
 nav {
     background-color: #ffffff;
    
 }
+.common{
+      max-width: 1000px;
+      margin: 0 auto;
+}
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px
+    padding: 16px
 }
 
 .firstlist {
@@ -22,8 +25,8 @@ nav {
     justify-content: space-between;
     list-style: none;
     gap: 20px;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 li a {
@@ -33,11 +36,12 @@ li a {
 
 .common-button {
     background-color:#2563eb;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 8px;
     border: none;
-    box-shadow: none;
     color: white;
+    font-weight: 500;
+    cursor:pointer;
 }
 .banner{
     background-image:url("images/banner.jpg"); 
@@ -45,10 +49,11 @@ li a {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 90vh;
+    height: 86vh;
 }
 .overlay{
     width: 45%;
+    height: 86vh;
     background: rgba(1, 0, 0, 0.55);
 }
 .banner-content{
@@ -58,7 +63,8 @@ li a {
    display: flex;
    flex-direction: column;
    margin: 0 250px;
-   text-align: center;
+  text-align: center;
+   max-width: 1200px;
 }
 .banner-content h1{
     font-size: 60px;
@@ -77,8 +83,59 @@ li a {
     color:white;
     border:none;
     border-radius:8px;
-    font-size:18px;
+    font-size: medium;
+    font-weight: 600;
     cursor:pointer;
     margin-top:170px;
     margin-left: 280px;
 }
+.speaker-container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+.speaker-container h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.speaker-container h3{
+    font-weight: 700;
+    margin: 12px 20px;
+}
+.speaker-container p{
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 12px 20px;
+}
+.speaker-container h6{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 12px  20px 20px;
+    color: #575757;
+}
+.speaker-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.speaker-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.speaker-container img{
+    width: 85vh;
+}
+.box{
+    border: 3px solid #f3f3f5; 
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
