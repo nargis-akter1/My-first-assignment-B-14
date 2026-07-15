@@ -234,7 +234,7 @@ li a {
     color: #ffffff;
     padding: 25px;
     border-radius: 15px;
-    width: 80%;
+    width: 85%;
 
     box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
     transition: .3s;
@@ -282,34 +282,37 @@ li a {
 }
 
 .button1 {
-    padding: 10px 50px;
+    padding: 10px 20px;
     border-radius: 8px;
     border: 1px solid #2563eb;
     color: #2563eb;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 19px;
+    width: 200px;
     cursor: pointer;
 }
 
 .button2 {
-    padding: 10px 65px;
+    padding: 10px 20px;
     border-radius: 8px;
     background-color: #2563eb;
     color: #ffffff;
     font-weight: 500;
-    margin-top: 16px;
+    margin-top: 19px;
     border: none;
     cursor: pointer;
+     width: 200px;
 }
 
 .button3 {
-    padding: 10px 30%;
+    padding: 10px 20px;
     border-radius: 8px;
     border: 1px solid #373738;
     color: #373738;
     font-weight: 500;
-    margin-top: 24px;
+    margin-top: 19px;
     cursor: pointer;
+     width: 200px;
 }
 
 /* price end */
