@@ -52,7 +52,7 @@ li a {
 
 
 .banner {
-    background-image: url("images/banner.jpg");
+    background-image: url("./images/banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,10 @@ li a {
 }
 
 .overlay {
-    width: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 86vh;
     background: rgba(1, 0, 0, 0.55);
 }
@@ -72,7 +75,7 @@ li a {
     height: 500px;
     display: flex;
     flex-direction: column;
-    margin: 0 250px;
+    margin: 0 0px;
     text-align: center;
     max-width: 1200px;
 }
